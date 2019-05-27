@@ -37,6 +37,7 @@ A list of new features implemented respect to the original:
 - Enter the "." automatically if the "0" is pressed first
 - ~~Validation of the number entered~~ implicit validation with the controls made on the insertion
 - Manage the insertion of an excessive number of characters
+- Manage *min* and *max* range with standard attribute of tag
 
 # Next feature
 List of planned new features (more info at [Project page](https://github.com/bobboteck/easy-numpad/projects)):
