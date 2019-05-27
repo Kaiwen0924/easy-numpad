@@ -39,7 +39,7 @@ A list of new features implemented respect to the original:
 - Manage the insertion of an excessive number of characters
 
 # Next feature
-List of planned new features (more info at [Project page](https://github.com/bobboteck/easy-numpad/projects/1)):
+List of planned new features (more info at [Project page](https://github.com/bobboteck/easy-numpad/projects)):
 
 - ...
 
