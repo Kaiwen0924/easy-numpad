@@ -1,7 +1,7 @@
 # Easy Numpad
 Easy Numpad is a pure HTML+JS+CSS control to implement a Numeric Pad in your HTML page, to be associated in a very simple way with any text field.
 
-![easy-numpad](https://repository-images.githubusercontent.com/184239909/d8d16880-6dc8-11e9-8290-366ce2f82d03)
+![easy-numpad](https://repository-images.githubusercontent.com/184239909/229b2f00-80a7-11e9-980c-9e8ed22e5317)
 
 Based on a Fork from an original project by [Gayan Sandamal](https://github.com/gayanSandamal/easy-numpad).
 
@@ -31,11 +31,11 @@ A list of new features implemented respect to the original:
 - Enter the "0" automatically if the "." is pressed first
 - Enter the "." automatically if the "0" is pressed first
 - ~~Validation of the number entered~~ implicit validation with the controls made on the insertion
+- Manage the insertion of an excessive number of characters
 
 # Next feature
 List of planned new features (more info at [Project page](https://github.com/bobboteck/easy-numpad/projects/1)):
 
-- Manage the insertion of an excessive number of characters
 - ...
 
 ## Request feature o bug fixing
