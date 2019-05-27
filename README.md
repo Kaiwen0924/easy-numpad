@@ -23,6 +23,11 @@ If you need to set a default value, just value the "value" property of the eleme
 <input id="yourElementId" type="number" value="125" readonly="true" onclick="show_easy_numpad(this);" />
 ```
 
+Now you can set a range of value with standard min and max attribute of tag as show in the following example:
+```
+<input id="yourElementId" type="number" min="-12.5" max="30" readonly="true" onclick="show_easy_numpad(this);" />
+```
+
 # Added a new feature
 A list of new features implemented respect to the original:
 
