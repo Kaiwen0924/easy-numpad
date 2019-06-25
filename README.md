@@ -23,6 +23,11 @@ If you need to set a default value, just value the "value" property of the eleme
 <input id="yourElementId" type="number" value="125" readonly="true" onclick="show_easy_numpad(this);" />
 ```
 
+When you open the numpad if you not need to have the value present in the field already set, you can use the custom attribute "data-easynumpad-use_default" setting it to "false". Setting the value to "true", or not entering the attribute (for reasons of backward compatibility) the value is reported in the numpad. Below is an example of use:
+```
+<input id="yourElementId" type="number" data-easynumpad-use_default="false" readonly="true" onclick="show_easy_numpad(this);" />
+```
+
 # Added a new feature
 A list of new features implemented respect to the original:
 
@@ -31,6 +36,7 @@ A list of new features implemented respect to the original:
 - Enter the "0" automatically if the "." is pressed first
 - Enter the "." automatically if the "0" is pressed first
 - ~~Validation of the number entered~~ implicit validation with the controls made on the insertion
+- Attribute to define if fetch or not the value of the field in the numpad
 
 # Next feature
 List of planned new features (more info at [Project page](https://github.com/bobboteck/easy-numpad/projects/1)):
