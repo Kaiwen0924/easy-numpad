@@ -28,6 +28,11 @@ Now you can set a range of value with standard min and max attribute of tag as s
 <input id="yourElementId" type="number" min="-12.5" max="30" readonly="true" onclick="show_easy_numpad(this);" />
 ```
 
+When you open the numpad if you not need to have the value present in the field already set, you can use the custom attribute "data-easynumpad-use_default" setting it to "false". Setting the value to "true", or not entering the attribute (for reasons of backward compatibility) the value is reported in the numpad. Below is an example of use:
+```
+<input id="yourElementId" type="number" data-easynumpad-use_default="false" readonly="true" onclick="show_easy_numpad(this);" />
+```
+
 # Added a new feature
 A list of new features implemented respect to the original:
 
@@ -38,6 +43,7 @@ A list of new features implemented respect to the original:
 - ~~Validation of the number entered~~ implicit validation with the controls made on the insertion
 - Manage the insertion of an excessive number of characters
 - Manage *min* and *max* range with standard attribute of tag
+- Attribute to define if fetch or not the value of the field in the numpad
 
 # Next feature
 List of planned new features (more info at [Project page](https://github.com/bobboteck/easy-numpad/projects)):
