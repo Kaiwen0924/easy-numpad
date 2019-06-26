@@ -1,7 +1,7 @@
 # Easy Numpad
 Easy Numpad is a pure HTML+JS+CSS control to implement a Numeric Pad in your HTML page, to be associated in a very simple way with any text field.
 
-![easy-numpad](https://repository-images.githubusercontent.com/184239909/d8d16880-6dc8-11e9-8290-366ce2f82d03)
+![easy-numpad](https://repository-images.githubusercontent.com/184239909/229b2f00-80a7-11e9-980c-9e8ed22e5317)
 
 Based on a Fork from an original project by [Gayan Sandamal](https://github.com/gayanSandamal/easy-numpad).
 
@@ -23,6 +23,11 @@ If you need to set a default value, just value the "value" property of the eleme
 <input id="yourElementId" type="number" value="125" readonly="true" onclick="show_easy_numpad(this);" />
 ```
 
+Now you can set a range of value with standard min and max attribute of tag as show in the following example:
+```
+<input id="yourElementId" type="number" min="-12.5" max="30" readonly="true" onclick="show_easy_numpad(this);" />
+```
+
 When you open the numpad if you not need to have the value present in the field already set, you can use the custom attribute "data-easynumpad-use_default" setting it to "false". Setting the value to "true", or not entering the attribute (for reasons of backward compatibility) the value is reported in the numpad. Below is an example of use:
 ```
 <input id="yourElementId" type="number" data-easynumpad-use_default="false" readonly="true" onclick="show_easy_numpad(this);" />
@@ -36,12 +41,13 @@ A list of new features implemented respect to the original:
 - Enter the "0" automatically if the "." is pressed first
 - Enter the "." automatically if the "0" is pressed first
 - ~~Validation of the number entered~~ implicit validation with the controls made on the insertion
+- Manage the insertion of an excessive number of characters
+- Manage *min* and *max* range with standard attribute of tag
 - Attribute to define if fetch or not the value of the field in the numpad
 
 # Next feature
-List of planned new features (more info at [Project page](https://github.com/bobboteck/easy-numpad/projects/1)):
+List of planned new features (more info at [Project page](https://github.com/bobboteck/easy-numpad/projects)):
 
-- Manage the insertion of an excessive number of characters
 - ...
 
 ## Request feature o bug fixing
